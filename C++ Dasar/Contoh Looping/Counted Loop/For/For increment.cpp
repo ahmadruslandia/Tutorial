@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+int main() {
 
-	for(int i = 0; i < 10; i++){
-	cout << "Perulangan For - " << i << endl;
+	for (int i = 0; i < 10; i++){
+		cout << "Perulangan For - " << i << endl;
 	}
 
 	return 0;
