@@ -28,6 +28,9 @@ class main
             case 4:
                 Console.WriteLine("Contoh Ke-4 Berhasil Dicoba");
                 break;
+            default:
+                Console.WriteLine("Masukkan Pilihan Dengan Benar");
+                break;
         }
 
     }

@@ -32,6 +32,10 @@ class main
                 Console.Clear();
                 Console.WriteLine("Contoh Ke-4 Berhasil Dicoba");
                 break;
+            default:
+                Console.Clear();
+                Console.WriteLine("Masukkan Pilihan Dengan Benar");
+                break;
         }
 
     }

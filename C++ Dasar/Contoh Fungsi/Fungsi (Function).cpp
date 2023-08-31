@@ -2,7 +2,7 @@
 using namespace std;
 
 void prin() {
-	cout << "Contoh Fungsi " << endl;
+	cout << "Contoh Fungsi" << endl;
 }
 
 int main() {

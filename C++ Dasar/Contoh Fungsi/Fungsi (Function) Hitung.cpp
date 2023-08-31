@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
 
-void tambah(int a, int b) {
+void pertambahan(int a, int b) {
 	cout << "--------- +" << endl;
 	cout << "Hasil : " << a + b << endl;
 }
 
-void kurang(int a, int b) {
+void pengurangan(int a, int b) {
 	cout << "--------- -" << endl;
 	cout << "Hasil : " << a - b << endl;
 }
@@ -40,7 +40,7 @@ int main() {
 		cin >> a;
 		cout << "Angka : ";
 		cin >> b;
-		tambah(a, b);
+		pertambahan(a, b);
 	}
 	else if (pilihan == 2) {
 		cout << "\nSilahkan Masukkan Angka \n" << endl;
@@ -48,7 +48,7 @@ int main() {
 		cin >> a;
 		cout << "Angka : ";
 		cin >> b;
-		kurang(a, b);
+		pengurangan(a, b);
 	}
 	else if (pilihan == 3) {
 		cout << "\nSilahkan Masukkan Angka \n" << endl;
