@@ -1,4 +1,4 @@
-﻿k = 10
+﻿i = 10
 
-for i in range(k, -1,-1):
+for i in range(i, 0,-1):
     print(f"Perulangan For - {i}")

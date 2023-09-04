@@ -1,4 +1,4 @@
-﻿x = 10
-while x > 0:
-    print("Perulangan While - ",x)
-    x = x + -1
+﻿i = 10
+while i > 0:
+    print("Perulangan While - ",i)
+    i = i + -1
