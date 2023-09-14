@@ -1,4 +1,4 @@
-﻿i = 10
+﻿x = 10
 
-for i in range(i):
+for i in range(x):
     print(f"Perulangan For - {i}")
