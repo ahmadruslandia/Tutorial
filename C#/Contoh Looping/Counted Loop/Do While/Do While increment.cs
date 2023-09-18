@@ -1,14 +1,17 @@
 ﻿using System;
 
-class main
+namespace Main
 {
-    static void Main(string[] args)
+    class main
     {
-        int i = 0;
-        do
+        static void Main(string[] args)
         {
-            Console.WriteLine($"Perulangan Do While - {i}");
-            i++;
-        } while (i < 10);
+            int i = 0;
+            do
+            {
+                Console.WriteLine($"Perulangan Do While - {i}");
+                i++;
+            } while (i < 10);
+        }
     }
 }

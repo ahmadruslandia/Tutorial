@@ -1,14 +1,17 @@
 ﻿using System;
 
-class main
+namespace Main
 {
-    static void prin()
+    class main
     {
-        Console.WriteLine("Contoh Fungsi");
-    }
+        static void prin()
+        {
+            Console.WriteLine("Contoh Fungsi");
+        }
 
-    static void Main(string[] args)
-    {
-        prin();
+        static void Main(string[] args)
+        {
+            prin();
+        }
     }
 }

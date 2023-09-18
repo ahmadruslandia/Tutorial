@@ -1,14 +1,17 @@
 ﻿using System;
 
-class main
+namespace Main
 {
-    static void Main(String[] args)
+    class main
     {
-        int i;
-
-        Console.Write("Masukkan Data berupa angka : ");
-        i = int.Parse(Console.ReadLine());
-
-        Console.WriteLine($"Output dari Data yang diinputkan : {i}");
+        static void Main(String[] args)
+        {
+            int i;
+            
+            Console.Write("Masukkan Data berupa angka : ");
+            i = int.Parse(Console.ReadLine());
+            
+            Console.WriteLine($"Output dari Data yang diinputkan : {i}");
+        }
     }
 }

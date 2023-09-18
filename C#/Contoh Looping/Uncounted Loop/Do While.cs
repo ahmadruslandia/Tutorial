@@ -1,24 +1,27 @@
 ﻿using System;
 
-class main
+namespace Main
 {
-    static void Main(string[] args)
+    class main
     {
-        char ulang = 'y';
-        int i = 0;
-
-        do
+        static void Main(string[] args)
         {
-            Console.WriteLine();
-            Console.WriteLine("Masukkan huruf y untuk contoh perulangan");
-            Console.WriteLine();
-            Console.Write("Masukkan huruf : ");
-            ulang = char.Parse(Console.ReadLine());
-            i++;
-        } while (ulang == 'y');
-        
-        Console.WriteLine();
-        Console.WriteLine("Selesai");
+            char ulang = 'y';
+            int i = 0;
 
+            do
+            {
+                Console.WriteLine();
+                Console.WriteLine("Masukkan huruf y untuk contoh perulangan");
+                Console.WriteLine();
+                Console.Write("Masukkan huruf : ");
+                ulang = char.Parse(Console.ReadLine());
+                i++;
+            } while (ulang == 'y');
+
+            Console.WriteLine();
+            Console.WriteLine("Selesai");
+
+        }
     }
 }

@@ -1,32 +1,35 @@
 ﻿using System;
 
-class main
+namespace Main
 {
-    static void Main(string[] args)
+    class main
     {
-        string data1,data2;
-
-        Console.WriteLine("Login :\n");
-        Console.Write("username : ");
-        data1 = Console.ReadLine();
-        Console.Write("password : ");
-        data2 = Console.ReadLine();
-
-        if (data1 == "user1")
+        static void Main(string[] args)
         {
-            if (data2 == "psw123")
+            string data1, data2;
+
+            Console.WriteLine("Login :\n");
+            Console.Write("username : ");
+            data1 = Console.ReadLine();
+            Console.Write("password : ");
+            data2 = Console.ReadLine();
+
+            if (data1 == "user1")
             {
-                Console.WriteLine("\nanda berhasil mencoba");
+                if (data2 == "psw123")
+                {
+                    Console.WriteLine("\nanda berhasil mencoba");
+                }
+                else
+                {
+                    Console.WriteLine("\npassword salah");
+                }
             }
             else
             {
-                Console.WriteLine("\npassword salah");
+                Console.WriteLine("\nusername anda salah");
             }
-        }
-        else
-        {
-            Console.WriteLine("\nusername anda salah");
-        }
 
+        }
     }
 }

@@ -1,5 +1,7 @@
 ﻿using System;
 
+namespace Main
+{
     class main
     {
         static void Main(string[] args)
@@ -12,3 +14,4 @@
             }
         }
     }
+}

@@ -1,17 +1,20 @@
 ﻿using System;
 
-class main
+namespace Main
 {
-    static void parameter(string huruf)
+    class main
     {
-        Console.WriteLine("Contoh Parameter : " + huruf);
-    }
+        static void parameter(string huruf)
+        {
+            Console.WriteLine("Contoh Parameter : " + huruf);
+        }
 
-    static void Main(string[] args)
-    {
-        parameter("a");
-        parameter("b");
-        parameter("c");
+        static void Main(string[] args)
+        {
+            parameter("a");
+            parameter("b");
+            parameter("c");
 
+        }
     }
 }

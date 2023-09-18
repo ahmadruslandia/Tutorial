@@ -1,12 +1,15 @@
 ﻿using System;
 
-class main
+namespace Main
 {
-    static void Main(string[] args)
+    class main
     {
-        char[] huruf = { 'a', 'b', 'c'};
-        Console.WriteLine($"Huruf : {huruf[0]}");
-        Console.WriteLine($"Huruf : {huruf[1]}");
-        Console.WriteLine($"Huruf : {huruf[2]}");
+        static void Main(string[] args)
+        {
+            char[] huruf = { 'a', 'b', 'c' };
+            Console.WriteLine($"Huruf : {huruf[0]}");
+            Console.WriteLine($"Huruf : {huruf[1]}");
+            Console.WriteLine($"Huruf : {huruf[2]}");
+        }
     }
 }

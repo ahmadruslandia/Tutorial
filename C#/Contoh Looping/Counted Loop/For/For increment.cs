@@ -1,12 +1,15 @@
 ﻿using System;
 
-class main
+namespace Main
 {
-    static void Main(string[] args)
+    class main
     {
-        for (int i = 0; i < 10; i++)
+        static void Main(string[] args)
         {
-            Console.WriteLine($"Perulangan For - {i}");
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine($"Perulangan For - {i}");
+            }
         }
     }
 }

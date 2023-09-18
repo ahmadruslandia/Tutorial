@@ -1,14 +1,17 @@
 ﻿using System;
 
-class main
+namespace Main
 {
-    static void Main(string[] args)
+    class main
     {
-        char[] huruf = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j' };
-
-        for (int i = 0; i < 10; i++)
+        static void Main(string[] args)
         {
-            Console.WriteLine($"Huruf : {huruf[i]}");
+            char[] huruf = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j' };
+
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine($"Huruf : {huruf[i]}");
+            }
         }
     }
 }
