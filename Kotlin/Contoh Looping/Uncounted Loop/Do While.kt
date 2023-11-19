@@ -13,12 +13,12 @@ fun main(args: Array<String>) {
         var jawab = input.next()
 
         if( jawab.equals("y") ){
-            ulang = true;
+            ulang = true
         }
         else{
-            ulang = false;
+            ulang = false
         }
-        i++;
+        i++
     }while (ulang)
     println(" ")
     println("Selesai")

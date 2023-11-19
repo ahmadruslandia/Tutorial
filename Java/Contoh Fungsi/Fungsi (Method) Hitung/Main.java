@@ -27,7 +27,6 @@ public class Main {
         Scanner Input1 = new Scanner(System.in);
         Scanner Input2 = new Scanner(System.in);
 
-
         System.out.println("Menu\n");
         System.out.println("1. Pertambahan ");
         System.out.println("2. Pengurangan ");

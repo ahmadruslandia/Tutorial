@@ -17,6 +17,6 @@ fun main(args: Array<String>) {
         println("\nini Adalah Contoh Else If")
     }
     else {
-        println("\nini Adalah Contoh Else");
+        println("\nini Adalah Contoh Else")
     }
 }
